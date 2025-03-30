@@ -175,17 +175,6 @@ WHERE DeptNo IN (
 );
 
 
-
-
-
-
-
-
-
-
-
-
-
 -- R19
 SELECT d.DName, s.Grade
 FROM DEPT d
@@ -206,6 +195,7 @@ WHERE d.DeptNo = (
     LIMIT 1
 )
 GROUP BY d.DName;
+
 
 -- R22
 SELECT *
